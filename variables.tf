@@ -53,10 +53,11 @@ variable "placeholder" {
 variable "AWS_ACCESS_KEY_ID" {}
 
 variable "AWS_SECRET_ACCESS_KEY" {}
+
 variable "bucket_prefix" {
     default = "pennuelmakia"
 }
 
-variable "bucket" {
+variable "bucket_name" {
     default = "pdf"
 }
