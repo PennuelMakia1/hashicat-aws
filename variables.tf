@@ -58,6 +58,6 @@ variable "bucket_prefix" {
     default = "pennuelmakia"
 }
 
-variable "bucket_name" {
+variable "bname" {
     default = "pdf"
 }
